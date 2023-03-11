@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.sidebar-hamburger {
+  position: absolute;
+  left: 15px;
+  top: 20px;
+}
+
+.default-button {
+  user-select: none;
+}
+
+.image-ratio {
+  aspect-ratio: 3/2;
+}
+
+.about-image {
+  height: clamp(100px, 500px, 100%);
+  width: clamp(150px, 500px, 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+.about-image__A {
+  background-image: url("./assets/images/restaurant.jpg");
+  background-position: center right;
+}
+.about-image__B {
+  background-image: url("./assets/images/Mario and Adrian b.jpg");
+  background-position: center;
+}
+
+.updating {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.booking-form__main {
+  display: grid;
+  justify-content: center;
+}
+
+.container {
+  padding: 1.25em 15.625em;
+}
+
+@media (min-width: 2499px) {
+  .container {
+    padding: 1.25em 46.625em;
+  }
+}
